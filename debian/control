@@ -10,6 +10,7 @@ Homepage: https://github.com/lliurex/rebost
 Package: xpanimated-yb-cursor-theme
 Architecture: all
 Depends: xserver-xorg 
+breaks: accesshelper-data (<=0.3)
 Description: X11 Mouse Theme
 	Cursors are looking well in both dark and clear backgrounds.
 	It is animated on the left_ptr, wait and half-busy cursors.
